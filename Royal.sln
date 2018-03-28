@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{81191C61-3874-4FEB-A717-FB739E22128F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalClassLib", "GlobalClassLib\GlobalClassLib.csproj", "{21B92517-1F46-4B57-9A2A-770620EA0A56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameClient", "Game_Client\GameClient.csproj", "{F2DF32E4-361D-43E2-AC3A-AFAFFD17D0A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81191C61-3874-4FEB-A717-FB739E22128F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81191C61-3874-4FEB-A717-FB739E22128F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81191C61-3874-4FEB-A717-FB739E22128F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81191C61-3874-4FEB-A717-FB739E22128F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B92517-1F46-4B57-9A2A-770620EA0A56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B92517-1F46-4B57-9A2A-770620EA0A56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B92517-1F46-4B57-9A2A-770620EA0A56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B92517-1F46-4B57-9A2A-770620EA0A56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DF32E4-361D-43E2-AC3A-AFAFFD17D0A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DF32E4-361D-43E2-AC3A-AFAFFD17D0A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DF32E4-361D-43E2-AC3A-AFAFFD17D0A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DF32E4-361D-43E2-AC3A-AFAFFD17D0A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A3DC3A2-6D83-4AB5-9907-528B00042AF7}
+	EndGlobalSection
+EndGlobal

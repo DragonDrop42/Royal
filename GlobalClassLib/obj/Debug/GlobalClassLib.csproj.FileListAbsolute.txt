@@ -1,0 +1,69 @@
+C:\Users\morit\Documents\Visual Studio 2017\Projects\TCP_Server-Client-System\GlobalClassLib\obj\Debug\GlobalClassLib.csproj.CoreCompileInputs.cache
+C:\Users\morit\Documents\Visual Studio 2017\Projects\TCP_Server-Client-System\GlobalClassLib\bin\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\TCP_Server-Client-System\GlobalClassLib\bin\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\Visual Studio 2017\Projects\TCP_Server-Client-System\GlobalClassLib\obj\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\TCP_Server-Client-System\GlobalClassLib\obj\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\Visual Studio 2017\Projects\TCP_Server-Client-System\GlobalClassLib\obj\Debug\GlobalClassLib.csprojResolveAssemblyReference.cache
+C:\Users\queiszermo\Desktop\TCP_Server-Client-System\GlobalClassLib\bin\Debug\GlobalClassLib.dll
+C:\Users\queiszermo\Desktop\TCP_Server-Client-System\GlobalClassLib\bin\Debug\GlobalClassLib.pdb
+C:\Users\queiszermo\Desktop\TCP_Server-Client-System\GlobalClassLib\obj\Debug\GlobalClassLib.dll
+C:\Users\queiszermo\Desktop\TCP_Server-Client-System\GlobalClassLib\obj\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\Visual Studio 2017\Projects\TCP_Game_Server\GlobalClassLib\bin\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\TCP_Game_Server\GlobalClassLib\bin\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\Visual Studio 2017\Projects\TCP_Game_Server\GlobalClassLib\obj\Debug\GlobalClassLib.csprojResolveAssemblyReference.cache
+C:\Users\morit\Documents\Visual Studio 2017\Projects\TCP_Game_Server\GlobalClassLib\obj\Debug\GlobalClassLib.csproj.CoreCompileInputs.cache
+C:\Users\morit\Documents\Visual Studio 2017\Projects\TCP_Game_Server\GlobalClassLib\obj\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\TCP_Game_Server\GlobalClassLib\obj\Debug\GlobalClassLib.pdb
+C:\Users\queiszermo\Desktop\TCP_server\GlobalClassLib\bin\Debug\GlobalClassLib.dll
+C:\Users\queiszermo\Desktop\TCP_server\GlobalClassLib\bin\Debug\GlobalClassLib.pdb
+C:\Users\queiszermo\Desktop\TCP_server\GlobalClassLib\obj\Debug\GlobalClassLib.dll
+C:\Users\queiszermo\Desktop\TCP_server\GlobalClassLib\obj\Debug\GlobalClassLib.pdb
+U:\IS_Programmierung\TCP_server\GlobalClassLib\bin\Debug\GlobalClassLib.dll
+U:\IS_Programmierung\TCP_server\GlobalClassLib\bin\Debug\GlobalClassLib.pdb
+U:\IS_Programmierung\TCP_server\GlobalClassLib\obj\Debug\GlobalClassLib.csprojResolveAssemblyReference.cache
+U:\IS_Programmierung\TCP_server\GlobalClassLib\obj\Debug\GlobalClassLib.dll
+U:\IS_Programmierung\TCP_server\GlobalClassLib\obj\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\GlobalClassLib\bin\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\GlobalClassLib\bin\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\GlobalClassLib\obj\Debug\GlobalClassLib.csproj.CoreCompileInputs.cache
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\GlobalClassLib\obj\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\GlobalClassLib\obj\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\GlobalClassLib\obj\Debug\GlobalClassLib.csprojResolveAssemblyReference.cache
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\GlobalClassLib\bin\Debug\ZeroFormatter.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\GlobalClassLib\obj\Debug\GlobalClassLib.csproj.CopyComplete
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\GlobalClassLib\bin\Debug\ZeroFormatter.Interfaces.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\GlobalClassLib\bin\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\GlobalClassLib\bin\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\GlobalClassLib\bin\Debug\ZeroFormatter.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\GlobalClassLib\bin\Debug\ZeroFormatter.Interfaces.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\GlobalClassLib\obj\Debug\GlobalClassLib.csprojResolveAssemblyReference.cache
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\GlobalClassLib\obj\Debug\GlobalClassLib.csproj.CoreCompileInputs.cache
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\GlobalClassLib\obj\Debug\GlobalClassLib.csproj.CopyComplete
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\GlobalClassLib\obj\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\GlobalClassLib\obj\Debug\GlobalClassLib.pdb
+C:\Users\queiszermo\Desktop\Server_27..3\GlobalClassLib\bin\Debug\GlobalClassLib.dll
+C:\Users\queiszermo\Desktop\Server_27..3\GlobalClassLib\bin\Debug\GlobalClassLib.pdb
+C:\Users\queiszermo\Desktop\Server_27..3\GlobalClassLib\bin\Debug\ZeroFormatter.dll
+C:\Users\queiszermo\Desktop\Server_27..3\GlobalClassLib\bin\Debug\ZeroFormatter.Interfaces.dll
+C:\Users\queiszermo\Desktop\Server_27..3\GlobalClassLib\obj\Debug\GlobalClassLib.csprojResolveAssemblyReference.cache
+C:\Users\queiszermo\Desktop\Server_27..3\GlobalClassLib\obj\Debug\GlobalClassLib.dll
+C:\Users\queiszermo\Desktop\Server_27..3\GlobalClassLib\obj\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\GlobalClassLib\bin\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\GlobalClassLib\bin\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\GlobalClassLib\bin\Debug\ZeroFormatter.dll
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\GlobalClassLib\obj\Debug\GlobalClassLib.csproj.CoreCompileInputs.cache
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\GlobalClassLib\obj\Debug\GlobalClassLib.csproj.CopyComplete
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\GlobalClassLib\obj\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\GlobalClassLib\obj\Debug\GlobalClassLib.pdb
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\bin\Debug\GlobalClassLib.dll
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\bin\Debug\GlobalClassLib.pdb
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\bin\Debug\ZeroFormatter.dll
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\obj\Debug\GlobalClassLib.csprojResolveAssemblyReference.cache
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\obj\Debug\GlobalClassLib.dll
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\obj\Debug\GlobalClassLib.pdb
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\bin\Debug\GlobalClassLib.dll
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\bin\Debug\GlobalClassLib.pdb
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\bin\Debug\ZeroFormatter.dll
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\obj\Debug\GlobalClassLib.csprojResolveAssemblyReference.cache
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\obj\Debug\GlobalClassLib.dll
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\obj\Debug\GlobalClassLib.pdb

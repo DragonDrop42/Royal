@@ -1,0 +1,95 @@
+U:\IS_Programmierung\TCP_server\DrawTest\bin\Debug\DrawTest.exe.config
+U:\IS_Programmierung\TCP_server\DrawTest\bin\Debug\DrawTest.exe
+U:\IS_Programmierung\TCP_server\DrawTest\bin\Debug\DrawTest.pdb
+U:\IS_Programmierung\TCP_server\DrawTest\bin\Debug\GlobalClassLib.dll
+U:\IS_Programmierung\TCP_server\DrawTest\bin\Debug\GlobalClassLib.pdb
+U:\IS_Programmierung\TCP_server\DrawTest\obj\Debug\DrawTest.csprojResolveAssemblyReference.cache
+U:\IS_Programmierung\TCP_server\DrawTest\obj\Debug\DrawTest.Form1.resources
+U:\IS_Programmierung\TCP_server\DrawTest\obj\Debug\DrawTest.Properties.Resources.resources
+U:\IS_Programmierung\TCP_server\DrawTest\obj\Debug\DrawTest.csproj.GenerateResource.Cache
+U:\IS_Programmierung\TCP_server\DrawTest\obj\Debug\DrawTest.exe
+U:\IS_Programmierung\TCP_server\DrawTest\obj\Debug\DrawTest.pdb
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\bin\Debug\DrawTest.exe.config
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\bin\Debug\DrawTest.exe
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\bin\Debug\DrawTest.pdb
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\bin\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\bin\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\obj\Debug\DrawTest.csprojResolveAssemblyReference.cache
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\obj\Debug\DrawTest.frm_game.resources
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\obj\Debug\DrawTest.Properties.Resources.resources
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\obj\Debug\DrawTest.csproj.GenerateResource.cache
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\obj\Debug\DrawTest.csproj.CoreCompileInputs.cache
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\obj\Debug\DrawTest.csproj.CopyComplete
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\obj\Debug\DrawTest.exe
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\obj\Debug\DrawTest.pdb
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\bin\Debug\ZeroFormatter.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_server\DrawTest\bin\Debug\ZeroFormatter.Interfaces.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\bin\Debug\DrawTest.exe.config
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\bin\Debug\DrawTest.exe
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\bin\Debug\DrawTest.pdb
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\bin\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\bin\Debug\ZeroFormatter.Interfaces.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\bin\Debug\ZeroFormatter.dll
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\bin\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\obj\Debug\DrawTest.csprojResolveAssemblyReference.cache
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\obj\Debug\DrawTest.frm_game.resources
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\obj\Debug\DrawTest.Properties.Resources.resources
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\obj\Debug\DrawTest.csproj.GenerateResource.cache
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\obj\Debug\DrawTest.csproj.CoreCompileInputs.cache
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\obj\Debug\DrawTest.csproj.CopyComplete
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\obj\Debug\DrawTest.exe
+C:\Users\morit\Documents\Visual Studio 2017\Projects\GameServer\TCP_Server_alpha_25.3.2018\DrawTest\obj\Debug\DrawTest.pdb
+C:\Users\queiszermo\Desktop\Server_27..3\DrawTest\bin\Debug\DrawTest.exe.config
+C:\Users\queiszermo\Desktop\Server_27..3\DrawTest\obj\Debug\DrawTest.exe
+C:\Users\queiszermo\Desktop\Server_27..3\DrawTest\obj\Debug\DrawTest.pdb
+C:\Users\queiszermo\Desktop\Server_27..3\DrawTest\bin\Debug\DrawTest.exe
+C:\Users\queiszermo\Desktop\Server_27..3\DrawTest\bin\Debug\DrawTest.pdb
+C:\Users\queiszermo\Desktop\Server_27..3\DrawTest\bin\Debug\GlobalClassLib.dll
+C:\Users\queiszermo\Desktop\Server_27..3\DrawTest\bin\Debug\ZeroFormatter.Interfaces.dll
+C:\Users\queiszermo\Desktop\Server_27..3\DrawTest\bin\Debug\ZeroFormatter.dll
+C:\Users\queiszermo\Desktop\Server_27..3\DrawTest\bin\Debug\GlobalClassLib.pdb
+C:\Users\queiszermo\Desktop\Server_27..3\DrawTest\obj\Debug\DrawTest.csprojResolveAssemblyReference.cache
+C:\Users\queiszermo\Desktop\Server_27..3\DrawTest\obj\Debug\DrawTest.frm_game.resources
+C:\Users\queiszermo\Desktop\Server_27..3\DrawTest\obj\Debug\DrawTest.Properties.Resources.resources
+C:\Users\queiszermo\Desktop\Server_27..3\DrawTest\obj\Debug\DrawTest.csproj.GenerateResource.Cache
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\bin\Debug\DrawTest.exe.config
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\bin\Debug\DrawTest.exe
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\bin\Debug\DrawTest.pdb
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\bin\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\bin\Debug\ZeroFormatter.Interfaces.dll
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\bin\Debug\ZeroFormatter.dll
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\bin\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\obj\Debug\DrawTest.csprojResolveAssemblyReference.cache
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\obj\Debug\DrawTest.frm_game.resources
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\obj\Debug\DrawTest.Properties.Resources.resources
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\obj\Debug\DrawTest.csproj.GenerateResource.cache
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\obj\Debug\DrawTest.csproj.CoreCompileInputs.cache
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\obj\Debug\DrawTest.csproj.CopyComplete
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\obj\Debug\DrawTest.exe
+C:\Users\morit\Documents\GitHub\2DMultiplayerGame_Royal_\Server_27..3\DrawTest\obj\Debug\DrawTest.pdb
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\bin\Debug\DrawTest.exe.config
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\obj\Debug\DrawTest.exe
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\obj\Debug\DrawTest.pdb
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\bin\Debug\DrawTest.exe
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\bin\Debug\DrawTest.pdb
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\bin\Debug\GlobalClassLib.dll
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\bin\Debug\ZeroFormatter.Interfaces.dll
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\bin\Debug\ZeroFormatter.dll
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\bin\Debug\GlobalClassLib.pdb
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\obj\Debug\DrawTest.csprojResolveAssemblyReference.cache
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\obj\Debug\DrawTest.frm_game.resources
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\obj\Debug\DrawTest.Properties.Resources.resources
+C:\Users\queiszermo\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\obj\Debug\DrawTest.csproj.GenerateResource.Cache
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\bin\Debug\DrawTest.exe.config
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\obj\Debug\DrawTest.exe
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\obj\Debug\DrawTest.pdb
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\bin\Debug\DrawTest.exe
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\bin\Debug\DrawTest.pdb
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\bin\Debug\GlobalClassLib.dll
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\bin\Debug\ZeroFormatter.Interfaces.dll
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\bin\Debug\ZeroFormatter.dll
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\bin\Debug\GlobalClassLib.pdb
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\obj\Debug\DrawTest.csprojResolveAssemblyReference.cache
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\obj\Debug\DrawTest.frm_game.resources
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\obj\Debug\DrawTest.Properties.Resources.resources
+C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\DrawTest\obj\Debug\DrawTest.csproj.GenerateResource.Cache
