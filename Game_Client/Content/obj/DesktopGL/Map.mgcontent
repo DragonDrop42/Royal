@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/wackerpe/Desktop/Royal/Game_Client/Content/Map.png</SourceFile>
-  <SourceTime>2018-03-27T01:49:52+02:00</SourceTime>
-  <DestFile>C:/Users/wackerpe/Desktop/Royal/Game_Client/Content/bin/DesktopGL/Map.xnb</DestFile>
-  <DestTime>2018-03-28T14:02:12.8493336+02:00</DestTime>
+  <SourceFile>C:/Users/wackerpe/Desktop/Royal-master/Game_Client/Content/Map.png</SourceFile>
+  <SourceTime>2018-03-28T14:13:41+02:00</SourceTime>
+  <DestFile>C:/Users/wackerpe/Desktop/Royal-master/Game_Client/Content/bin/DesktopGL/Map.xnb</DestFile>
+  <DestTime>2018-03-28T14:24:41.8517045+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
