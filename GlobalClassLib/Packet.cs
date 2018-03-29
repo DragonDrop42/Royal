@@ -82,6 +82,9 @@ namespace GlobalClassLib
 
         [Index(9)]
         public virtual string ID { get; set; }
+
+        [IgnoreFormat]
+        public virtual int CircleColiderRad { get; set; }
     }
     [ZeroFormattable]
     public class Bullet : GameObject 
