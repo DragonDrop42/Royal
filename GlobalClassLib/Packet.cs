@@ -120,44 +120,4 @@ namespace GlobalClassLib
         [Index(16)]
         public virtual ItemType ItemType { get; set; }
     }
-
-    //public class GameObjectServer : GameObject
-    //{
-    //    public virtual string ID { get; set; }
-
-    //    public GameObjectServer(string ID)
-    //    {
-    //        this.ID = ID;
-    //    }
-    //    //extra non Serialoized Data
-    //}
-
-
-
-    //[Index(2)]
-    //public virtual int[][] Map { get; set; }
-
-    // When mark IgnoreFormatAttribute, out of the serialization target
-    //[IgnoreFormat]
-    //public int getXPosition(GameObject obj) { get { return obj.Position[0]; } }
-
-    //[Index(3)]
-    //public virtual IList<int> List { get; set; }
-
-    //public PacketType PacketType;   //klassifizierung
-    //public ListDictionary Data;
-    //public bool Success;
-    //public string Message;
-
-    ////Request --Client
-    //public Packet(PacketType packetType)
-    //{
-    //    this.PacketType = packetType;
-    //}
-    //public Packet(PacketType packetType, ListDictionary data)
-    //{
-    //    this.PacketType = packetType;
-    //    this.Data = data;
-    //}
-
 }
