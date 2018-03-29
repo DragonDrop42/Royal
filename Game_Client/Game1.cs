@@ -20,6 +20,7 @@ namespace Royal
         private string ID;
         Packet DrawPacket;
         private Texture2D playertexture;
+        private Texture2D bullettexture;
         
         public Game1()
         {
@@ -40,6 +41,7 @@ namespace Royal
             // TODO: Add your initialization logic here
             Vector2 playerPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.X, GraphicsDevice.Viewport.TitleSafeArea.Y);
             playertexture = Content.Load<Texture2D>("Player/player");
+            bullettexture = Content.Load<Texture2D>("Bullet");
             cursor = Content.Load<Texture2D>("Player/cursor");
             Texture2D MapTex = Content.Load<Texture2D>("Map");
             int[][] intMap = new int[10][];
@@ -60,6 +62,7 @@ namespace Royal
             SendLoginRequest();
 
             player.Initialize(Content.Load<Texture2D>("Player/player"), playerPosition,client);
+            Window.AllowUserResizing = true;
 
             base.Initialize();
         }
@@ -158,6 +161,11 @@ namespace Royal
             {
                 Vector2 pos = new Vector2(pl.Position.X, pl.Position.Y);
                 spriteBatch.Draw(playertexture, pos, null, Color.White, pl.Rotation, centerOffset, 1f, SpriteEffects.None, 0f);
+            } 
+            foreach (Bullet bl in DrawPacket.LstBulletObj)
+            {
+                Vector2 pos = new Vector2(bl.Position.X, bl.Position.Y);
+                spriteBatch.Draw(bullettexture, pos, null, Color.White, 0f, centerOffset, 1f, SpriteEffects.None, 0f);
             }
         }
     }

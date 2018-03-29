@@ -18,6 +18,8 @@ namespace Royal
         public float angle;
         public Vector2 centerOffset;
         public ClientConnection Client;
+        public string ID;
+        public float oldangle;
 
         public void Initialize(Texture2D Texture,Vector2 Position, ClientConnection Client)
         {
@@ -29,7 +31,25 @@ namespace Royal
 
         public void Update()
         {
+            Vector2 anglel = this.Position - Mouse.GetState().Position.ToVector2();
+            if (Mouse.GetState().LeftButton == ButtonState.Pressed)
+                Client.SendPacket(new Packet
+                {
+                    PacketType = PacketType.AddBullet,
+                    BulletObj = new Bullet
+                    {
+                        Position = new Vector (this.Position.X,this.Position.Y),
+                        Dir = new Vector(anglel.X,anglel.Y)
+                        
+                    }
+                });
 
+
+            Vector2 MousePos = Mouse.GetState().Position.ToVector2();
+            oldangle = angle;
+            angle = Convert.ToSingle(Math.Atan2(MousePos.Y - Position.Y - centerOffset.Y, MousePos.X - Position.X - centerOffset.X));
+            if (Keyboard.GetState().GetPressedKeys().Length == 0)
+                return;
             if (Keyboard.GetState().IsKeyDown(Keys.Left))
                 Position.X -= speed;
             if (Keyboard.GetState().IsKeyDown(Keys.Right))
@@ -39,10 +59,7 @@ namespace Royal
             if (Keyboard.GetState().IsKeyDown(Keys.Down))
                 Position.Y += speed;
 
-            Vector2 MousePos = Mouse.GetState().Position.ToVector2();
-            angle = Convert.ToSingle(Math.Atan2(MousePos.Y - Position.Y - centerOffset.Y, MousePos.X - Position.X - centerOffset.X));
-
-            Packet packet = new Packet
+            Client.SendPacket(new Packet
             {
                 PacketType = PacketType.PlayerMove,
                 PlayerObj = new Player
@@ -52,12 +69,7 @@ namespace Royal
                     Rotation = this.angle
                     //Name = "Player_One"
                 }
-            };
-
-            Client.SendPacket(packet);
-
+            });
         }
-
-        public string ID { get; set; }
     }
 }
