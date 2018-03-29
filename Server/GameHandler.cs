@@ -47,6 +47,13 @@ namespace Server
             }
         }
 
+        List<string> Lst_removeClientsIDs = new List<string>();
+
+        public void RemoveClientFromGame(string id)
+        {
+            Lst_removeClientsIDs.Add(id);
+        }
+
         const int GameTimeMiliseconds = 10;     //gameTime++++++++++++++++++++++++++++++++++++++++++++++++
 
         private void GameLoopHandler()
@@ -57,18 +64,18 @@ namespace Server
                 sw.Reset();
                 sw.Start();
 
-                bool update = GameLoop();   //This takes Time
+                GameLoop();   //This takes Time
 
                 sw.Stop();
 
-                Console.WriteLine("Time needed for GameLoop: " + sw.Elapsed);
+                //Console.WriteLine("Time needed for GameLoop: " + sw.Elapsed);
 
                 if (sw.ElapsedMilliseconds < GameTimeMiliseconds)
                 {
                     Thread.Sleep(GameTimeMiliseconds - sw.Elapsed.Milliseconds);    //hällt Framerate stabil
                 }
 
-                if (update || SomethingChanged) //if update necesarry
+                if (SomethingChanged) //if update necesarry
                 {
                     //Update packet an alle Client senden
                     UpdateNecessary.Set();
@@ -77,11 +84,10 @@ namespace Server
             }
         }
         //GameLoop++++++++++++++++++++++++++++++++++++++++++++++++++
-        private bool GameLoop()
+        private void GameLoop()
         {
             try
             {
-                bool update = false;
                 //MoveBullets
                 List<Object> Lst_removeObj = new List<object>();
                 Parallel.ForEach(Lst_BulletObj, bullet =>
@@ -95,26 +101,33 @@ namespace Server
                     else
                     {
                         bullet.Position = new Vector(bullet.Position.X + bullet.Dir.X, bullet.Position.Y + bullet.Dir.Y);
-                        update = true;
+                        SomethingChanged = true;
                     }
                 });
                 //remove old Bullets
                 Parallel.ForEach(Lst_removeObj, b =>
                 {
                     Lst_BulletObj.Remove((Bullet)b);
-                    update = true;
+                    SomethingChanged = true;
                 });
                 Lst_removeObj = new List<object>();
 
-                return update;
+                //Spieler entfernen
+                if(Lst_removeClientsIDs.Count > 0)
+                {
+                    foreach(string id in Lst_removeClientsIDs)
+                    {
+                        Player p_remove = Lst_PlayerObj.Single(p => p.ID == id);
+                        Lst_PlayerObj.Remove(p_remove);
+                    }
+                    Lst_removeClientsIDs.Clear();
+                }
             }
-            catch
+            catch(Exception e)
             {
-                Console.WriteLine("GameLoop Error-----------------------");
-                return false;
+                Console.WriteLine("GameLoop Error-----------------------" + e.Message);
             }
         }
-
 
         //Add Objects to Game+++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -181,9 +194,32 @@ namespace Server
         }
 
         //Physik und Kollision+++++++++++++++++++++++++++++++++++++++++++++++++++++
+        private GameObject CheckCollision_List_Object(List<GameObject> lstGameObj, GameObject obj2)
+        {
+            GameObject collision = null;
+            Parallel.ForEach(lstGameObj, obj =>
+            {
+                if (CalculateDist(obj, obj2) < (obj.CircleColiderRad + obj2.CircleColiderRad))
+                {
+                    collision = obj;
+                    return;
+                }
+            });
+            return collision;
+        }
+
         private void CheckCollision()
         {
             //throw new NotImplementedException();
+        }
+
+        private float CalculateDist(GameObject o1, GameObject o2)
+        {
+            float dx = Math.Abs(o1.Position.X - o2.Position.X);
+            float dy = Math.Abs(o1.Position.Y - o2.Position.Y);
+
+            float dist = (float)Math.Sqrt(dx * dx + dy * dy);
+            return dist;
         }
     }
 }
