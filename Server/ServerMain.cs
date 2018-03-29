@@ -255,6 +255,10 @@ namespace Server
         //Verbindung trennen
         private static void CloseConnection(ClientContext clientData)
         {
+            //GameClient löschen
+            game.RemoveClientFromGame(clientData.ID);
+
+            //Close Socket
             clientData.Client.Close();
             clientData.Stream.Dispose();
             clientData.Message.Dispose();
