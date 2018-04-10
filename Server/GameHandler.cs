@@ -88,29 +88,7 @@ namespace Server
         {
             try
             {
-                //MoveBullets
-                List<Object> Lst_removeObj = new List<object>();
-                Parallel.ForEach(Lst_BulletObj, bullet =>
-                {
-                    bullet.Lifetime--;
-                    if (bullet.Lifetime <= 0)
-                    {
-                        Lst_removeObj.Add(bullet);
-                        Console.WriteLine("Bullet remove");
-                    }
-                    else
-                    {
-                        bullet.Position = new Vector(bullet.Position.X + bullet.Dir.X, bullet.Position.Y + bullet.Dir.Y);
-                        SomethingChanged = true;
-                    }
-                });
-                //remove old Bullets
-                Parallel.ForEach(Lst_removeObj, b =>
-                {
-                    Lst_BulletObj.Remove((Bullet)b);
-                    SomethingChanged = true;
-                });
-                Lst_removeObj = new List<object>();
+                HandleBullets();
 
                 //Spieler entfernen
                 if(Lst_removeClientsIDs.Count > 0)
@@ -129,6 +107,45 @@ namespace Server
             }
         }
 
+        private void HandleBullets()
+        {
+            //MoveBullets
+            List<Object> Lst_removeObj = new List<object>();
+            Parallel.ForEach(Lst_BulletObj, bullet =>
+            {
+                bullet.Lifetime--;
+                if (bullet.Lifetime <= 0)
+                {
+                    Lst_removeObj.Add(bullet);
+                }
+                else
+                {
+                    //Move
+                    bullet.Position = new Vector(bullet.Position.X + (bullet.Dir.X * bullet.Speed), bullet.Position.Y + (bullet.Dir.Y * bullet.Speed));
+
+                    //check Collision
+                    Player objHit = (Player)CheckCollision_List_Object(Lst_PlayerObj.ConvertAll(x => (GameObject)x), bullet);
+                    if(objHit != null)  //hit
+                    {
+                        objHit.Life--;
+                        Console.WriteLine("Hit++++++++++++ " + objHit.Life);
+
+                        //remove Bullet
+                        Lst_removeObj.Add(bullet);
+                    }
+
+                    SomethingChanged = true;
+                }
+            });
+            //remove old Bullets
+            Parallel.ForEach(Lst_removeObj, b =>
+            {
+                Lst_BulletObj.Remove((Bullet)b);
+                Console.WriteLine("Bullet remove");
+                SomethingChanged = true;
+            });
+        }
+
         //Add Objects to Game+++++++++++++++++++++++++++++++++++++++++++++++
 
         public void AddPlayer(string id)
@@ -139,15 +156,21 @@ namespace Server
                 Rotation = 0f,
                 GameObjType = GameObjType.Player,
                 Name = "tmpName",
+                Life = 100,
+                //collision
+                CircleColiderRad = 15,
                 ID = id //mit ID verbinden
             };
             Lst_PlayerObj.Add(obj);
         }
 
-        public void AddBullet(Bullet b)
+        public void AddBullet(Bullet b, string id)
         {
             //Server setup
             b.Lifetime = 100;
+            b.Speed = 4;
+            b.CircleColiderRad = 8;
+            b.ID = id;
             //add to List
             Lst_BulletObj.Add(b);
         }
@@ -183,7 +206,7 @@ namespace Server
                     break;
 
                 case PacketType.AddBullet:
-                    AddBullet(request.BulletObj);
+                    AddBullet(request.BulletObj, ID);
                     break;
 
                 default:
@@ -199,9 +222,9 @@ namespace Server
             GameObject collision = null;
             Parallel.ForEach(lstGameObj, obj =>
             {
-                if (CalculateDist(obj, obj2) < (obj.CircleColiderRad + obj2.CircleColiderRad))
+                if ((CalculateDist(obj, obj2) < (obj.CircleColiderRad + obj2.CircleColiderRad)) && (obj.ID != obj2.ID))     //man kann sich nicht selber treffen
                 {
-                    collision = obj;
+                    collision = obj;    //erste Kollision
                     return;
                 }
             });
