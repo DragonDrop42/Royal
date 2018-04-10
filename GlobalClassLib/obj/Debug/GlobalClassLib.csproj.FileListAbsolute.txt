@@ -67,3 +67,11 @@ C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClas
 C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\obj\Debug\GlobalClassLib.csprojResolveAssemblyReference.cache
 C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\obj\Debug\GlobalClassLib.dll
 C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\GlobalClassLib\obj\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\GitHub\Royal\GlobalClassLib\bin\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\GitHub\Royal\GlobalClassLib\bin\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\GitHub\Royal\GlobalClassLib\bin\Debug\ZeroFormatter.dll
+C:\Users\morit\Documents\GitHub\Royal\GlobalClassLib\obj\Debug\GlobalClassLib.csprojResolveAssemblyReference.cache
+C:\Users\morit\Documents\GitHub\Royal\GlobalClassLib\obj\Debug\GlobalClassLib.csproj.CoreCompileInputs.cache
+C:\Users\morit\Documents\GitHub\Royal\GlobalClassLib\obj\Debug\GlobalClassLib.csproj.CopyComplete
+C:\Users\morit\Documents\GitHub\Royal\GlobalClassLib\obj\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\GitHub\Royal\GlobalClassLib\obj\Debug\GlobalClassLib.pdb

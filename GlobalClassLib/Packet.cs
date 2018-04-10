@@ -113,11 +113,14 @@ namespace GlobalClassLib
 
         [Index(15)]
         public virtual float Rotation { get; set; }
+
+        [Index(16)]
+        public virtual int Life { get; set; }
     }
     [ZeroFormattable]
     public class Item : GameObject
     {
-        [Index(16)]
+        [Index(17)]
         public virtual ItemType ItemType { get; set; }
     }
 }
