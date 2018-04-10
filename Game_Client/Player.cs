@@ -29,7 +29,7 @@ namespace Royal
             this.Client = Client;
         }
 
-        public void Update()
+        public void Update(Vector2 CameraPos)
         {
             Vector2 anglel = this.Position - Mouse.GetState().Position.ToVector2();
             if (Mouse.GetState().LeftButton == ButtonState.Pressed)
@@ -45,7 +45,7 @@ namespace Royal
                 });
 
 
-            Vector2 MousePos = Mouse.GetState().Position.ToVector2();
+            Vector2 MousePos = Mouse.GetState().Position.ToVector2() + CameraPos ;
             oldangle = angle;
             angle = Convert.ToSingle(Math.Atan2(MousePos.Y - Position.Y - centerOffset.Y, MousePos.X - Position.X - centerOffset.X));
             if (Keyboard.GetState().GetPressedKeys().Length == 0)
