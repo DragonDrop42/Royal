@@ -111,3 +111,15 @@ C:\Users\wackerpe\Desktop\2DMultiplayerGame_Royal_-master\Game_Server\Server\bin
 C:\Users\wackerpe\Desktop\Royal\Server\bin\Debug\Server.exe.config
 C:\Users\wackerpe\Desktop\Royal\Server\obj\Debug\Server.exe
 C:\Users\wackerpe\Desktop\Royal\Server\obj\Debug\Server.pdb
+C:\Users\morit\Documents\GitHub\Royal\Server\bin\Debug\Server.exe.config
+C:\Users\morit\Documents\GitHub\Royal\Server\bin\Debug\Server.exe
+C:\Users\morit\Documents\GitHub\Royal\Server\bin\Debug\Server.pdb
+C:\Users\morit\Documents\GitHub\Royal\Server\bin\Debug\GlobalClassLib.dll
+C:\Users\morit\Documents\GitHub\Royal\Server\bin\Debug\ZeroFormatter.Interfaces.dll
+C:\Users\morit\Documents\GitHub\Royal\Server\bin\Debug\ZeroFormatter.dll
+C:\Users\morit\Documents\GitHub\Royal\Server\bin\Debug\GlobalClassLib.pdb
+C:\Users\morit\Documents\GitHub\Royal\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\morit\Documents\GitHub\Royal\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\morit\Documents\GitHub\Royal\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\morit\Documents\GitHub\Royal\Server\obj\Debug\Server.exe
+C:\Users\morit\Documents\GitHub\Royal\Server\obj\Debug\Server.pdb

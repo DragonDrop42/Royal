@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/wackerpe/Desktop/Royal-Patch_Collision_PlayerLife/Game_Client/Content/Bullet.png</SourceFile>
-  <SourceTime>2018-03-29T22:51:24+02:00</SourceTime>
-  <DestFile>C:/Users/wackerpe/Desktop/Royal-Patch_Collision_PlayerLife/Game_Client/Content/bin/DesktopGL/Bullet.xnb</DestFile>
-  <DestTime>2018-04-10T10:24:41.6488286+02:00</DestTime>
+  <SourceFile>C:/Users/morit/Documents/GitHub/Royal/Game_Client/Content/Bullet.png</SourceFile>
+  <SourceTime>2018-03-29T23:00:58.5159058+02:00</SourceTime>
+  <DestFile>C:/Users/morit/Documents/GitHub/Royal/Game_Client/Content/bin/DesktopGL/Bullet.xnb</DestFile>
+  <DestTime>2018-03-29T23:02:00.3467819+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

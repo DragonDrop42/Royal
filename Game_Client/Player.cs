@@ -32,6 +32,8 @@ namespace Royal
         public void Update(Vector2 CameraPos)
         {
             Vector2 anglel = this.Position - Mouse.GetState().Position.ToVector2();
+            anglel.Normalize();
+
             if (Mouse.GetState().LeftButton == ButtonState.Pressed)
                 Client.SendPacket(new Packet
                 {
@@ -39,8 +41,7 @@ namespace Royal
                     BulletObj = new Bullet
                     {
                         Position = new Vector (this.Position.X,this.Position.Y),
-                        Dir = new Vector(anglel.X,anglel.Y)
-                        
+                        Dir = new Vector(-anglel.X, -anglel.Y)
                     }
                 });
 
