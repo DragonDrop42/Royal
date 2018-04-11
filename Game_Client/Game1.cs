@@ -21,7 +21,8 @@ namespace Royal
         Packet DrawPacket;
         private Texture2D playertexture;
         private Texture2D bullettexture;
-        
+
+        Vector2 CameraPos;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -37,7 +38,6 @@ namespace Royal
         /// </summary>
         protected override void Initialize()
         {
-
             // TODO: Add your initialization logic here
             Vector2 playerPosition = new Vector2(GraphicsDevice.Viewport.TitleSafeArea.X, GraphicsDevice.Viewport.TitleSafeArea.Y);
             playertexture = Content.Load<Texture2D>("Player/player");
@@ -128,7 +128,8 @@ namespace Royal
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-            player.Update();
+            CameraPos = player.Position - new Vector2(Window.ClientBounds.Width/2, Window.ClientBounds.Height/2);
+            player.Update(CameraPos);
             
             // TODO: Add your update logic here
 
@@ -143,7 +144,7 @@ namespace Royal
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
             spriteBatch.Begin();
-            Map.Draw(spriteBatch);
+            Map.Draw(spriteBatch,CameraPos);
             Vector2 cursorCenter = new Vector2(cursor.Width/2,cursor.Height/2);
             DrawGameObject();
             spriteBatch.Draw(cursor, Mouse.GetState().Position.ToVector2(), null, Color.White, 0f, cursorCenter, 0.1f, SpriteEffects.None, 0f);
@@ -159,12 +160,12 @@ namespace Royal
             Vector2 centerOffset = new Vector2(playertexture.Width / 2, playertexture.Height / 2);
             foreach (Player pl in DrawPacket.LstPlayerObj)
             {
-                Vector2 pos = new Vector2(pl.Position.X, pl.Position.Y);
+                Vector2 pos = new Vector2(pl.Position.X, pl.Position.Y) - CameraPos;
                 spriteBatch.Draw(playertexture, pos, null, Color.White, pl.Rotation, centerOffset, 1f, SpriteEffects.None, 0f);
             } 
             foreach (Bullet bl in DrawPacket.LstBulletObj)
             {
-                Vector2 pos = new Vector2(bl.Position.X, bl.Position.Y);
+                Vector2 pos = new Vector2(bl.Position.X, bl.Position.Y) - CameraPos;
                 spriteBatch.Draw(bullettexture, pos, null, Color.White, (float)Math.Atan2(bl.Dir.X, -bl.Dir.Y), centerOffset, 1f, SpriteEffects.None, 0f);
             }
         }

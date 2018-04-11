@@ -54,13 +54,13 @@ namespace Royal
 
         }
 
-        public void Draw(SpriteBatch sb)
+        public void Draw(SpriteBatch sb,Vector2 CameraPos)
         {
             for (int x = 0; x < TexMap.Count; x++)
             {
                 for (int y = 0; y < TexMap[x].Count; y++)
                 {
-                    sb.Draw(TexMap[x][y], new Vector2(TileSize.X*x,TileSize.Y*y),null, Color.White);
+                    sb.Draw(TexMap[x][y], new Vector2(TileSize.X*x,TileSize.Y*y) - CameraPos,null, Color.White);
                 }
             }
         }
