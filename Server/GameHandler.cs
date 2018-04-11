@@ -107,6 +107,26 @@ namespace Server
             }
         }
 
+        private void HandlePlayers()
+
+        private bool CheckIfShootPossible(Player player)
+        {
+            if (player.GunObj == null)
+            {
+                return false;
+            }
+
+            if (player.GunObj.CooldownTimer <= 0 && player.GunObj.AmmoCurrent > 0)
+            {
+                player.GunObj.AmmoCurrent--;
+                player.GunObj.CooldownTimer = player.GunObj.Cooldown;
+
+                return true;
+            }
+
+            return false;
+        }
+
         private void HandleBullets()
         {
             //MoveBullets
@@ -159,7 +179,9 @@ namespace Server
                 Life = 100,
                 //collision
                 CircleColiderRad = 15,
-                ID = id //mit ID verbinden
+                ID = id, //mit ID verbinden
+
+                GunObj = getGunObjectFromType(GunType.Pistol)
             };
             Lst_PlayerObj.Add(obj);
         }
@@ -175,6 +197,27 @@ namespace Server
             Lst_BulletObj.Add(b);
         }
 
+        //Weapon setup
+        private Gun getGunObjectFromType(GunType type)
+        {
+            Gun g;
+            switch (type)
+            {
+                case GunType.Pistol:
+                    g = new Gun
+                    {
+                        AmmoFull = 12,
+                        AmmoCurrent = 12,
+                        Cooldown = 100,
+                        CooldownTimer = 0
+                    };
+                    break;
+                    //....
+            }
+
+            return g;
+        }
+    
         //Packet verarbeiten++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         public Packet PacketManager(Packet request, string ID)
         {
@@ -205,8 +248,13 @@ namespace Server
                     SomethingChanged = true;  //zum aktualisieren
                     break;
 
-                case PacketType.AddBullet:
-                    AddBullet(request.BulletObj, ID);
+                case PacketType.AddBullet:  //Shoot
+                    //check if shoot available
+                    if (CheckIfShootPossible(player))
+                    {
+                        AddBullet(request.BulletObj, player.ID);
+                    }
+                    
                     break;
 
                 default:
