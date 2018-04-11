@@ -2,7 +2,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-
+using System;
 
 namespace Royal
 {
@@ -15,7 +15,7 @@ namespace Royal
         SpriteBatch spriteBatch;
         DrawPlayer player = new DrawPlayer();
         Texture2D cursor;
-        map Map = new map();
+        Map Map = new Map();
         private ClientConnection client;
         private string ID;
         Packet DrawPacket;
@@ -165,7 +165,7 @@ namespace Royal
             foreach (Bullet bl in DrawPacket.LstBulletObj)
             {
                 Vector2 pos = new Vector2(bl.Position.X, bl.Position.Y);
-                spriteBatch.Draw(bullettexture, pos, null, Color.White, 0f, centerOffset, 1f, SpriteEffects.None, 0f);
+                spriteBatch.Draw(bullettexture, pos, null, Color.White, (float)Math.Atan2(bl.Dir.X, -bl.Dir.Y), centerOffset, 1f, SpriteEffects.None, 0f);
             }
         }
     }
